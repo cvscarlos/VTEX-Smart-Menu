@@ -31,6 +31,7 @@ jQuery.fn.smartMenu=function(opts)
 		products:{},
 		exec:function()
 		{
+			fn.formatMenu();
 			fn.getProducts();
 		},
 		getProducts:function()

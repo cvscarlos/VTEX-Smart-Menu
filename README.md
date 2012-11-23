@@ -4,10 +4,10 @@
 ----------
 
 ##Instalação
-Faça o upload para o "Gerenciador do portal" no "Vtex Admin" dos seguintes arquivos:
+1. Faça o upload para o "Gerenciador do portal" no "Vtex Admin" dos seguintes arquivos:
 * smartMenu.min.js
 
-Crie um template no Gerenciador do Portal com o seguinte conteúdo:
+2. Crie um template no Gerenciador do Portal com o seguinte conteúdo:
 ```html
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:vtex="http://www.vtex.com.br/2009/vtex-common" xmlns:vtex.cmc="http://www.vtex.com.br/2009/vtex-commerce">
@@ -20,7 +20,7 @@ Crie um template no Gerenciador do Portal com o seguinte conteúdo:
 O PlaceHolder desta página deve ser populado com coleções dos produtos que deseja exibir. O título de cada coleção obrigatoriamente tem que ser o mesmo que o nome do menu onde ele deve aparecer.
 Exemplo: menu "Homens" o título do controle deve ser "Homens".
 
-Execute o plugin. Como seletor use a `div` gerada pelo controle `<vtex.cmc:departmentNavigator/>`.
+3. Execute o plugin. Como seletor use a `div` gerada pelo controle `<vtex.cmc:departmentNavigator/>`.
 ```javascript
 $(".menu-departamento").smartMenu();
 ```
