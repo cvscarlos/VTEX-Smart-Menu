@@ -24,3 +24,19 @@ Exemplo: menu "Homens" o título do controle deve ser "Homens".
 ```javascript
 $(".menu-departamento").smartMenu();
 ```
+
+###Avançado
+
+Configurações completas do plugin (lista atualizada em 23/11/2012):
+```javascript
+$(".menu-departamento").smartMenu({
+	// Url da página que contém as coleções
+	productsUrl:"http://"+document.location.host+"/menu",
+	// Classe onde o produto será inserido
+	productClass:".vtexsm-product",
+	// Define se o menu será formatado pelo plugin
+	noFormatMenu:false,
+	// Callback após executar as funções do plugin, isso não inclui requisições assincronas e suas derivações.
+	callback:function(){}
+});
+```
