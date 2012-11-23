@@ -22,7 +22,7 @@ Exemplo: menu "Homens" o título do controle deve ser "Homens".
 
 3. Execute o plugin. Como seletor use a `div` gerada pelo controle `<vtex.cmc:departmentNavigator/>`.
 ```javascript
-$(".menu-departamento").smartMenu();
+$("#header .menu-departamento").smartMenu();
 ```
 
 ###Avançado
